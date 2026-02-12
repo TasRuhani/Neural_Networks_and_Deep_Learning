@@ -1,0 +1,8 @@
+# Hyperparameters
+input_size = 32 * 32 * 3
+hidden_size = 128
+num_hidden_layers = 10 and 20
+num_classes = 10
+num_epochs = 25
+batch_size = 128
+learning_rate = 0.001

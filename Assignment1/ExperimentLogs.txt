@@ -1,0 +1,462 @@
+============================================================
+Experiment Date: 2026-02-12 20:56:06.860590
+Activation Function: Sigmoid
+Hidden Layers: 10
+Neurons per Layer: 128
+Optimizer: Adam
+Learning Rate: 0.001
+Batch Size: 128
+Epochs: 25
+
+Epoch-wise Results:
+Epoch 1: Train Loss=2.3075, Train Acc=9.91%, Val Loss=2.3058, Val Acc=10.00%
+Epoch 2: Train Loss=2.3057, Train Acc=9.98%, Val Loss=2.3089, Val Acc=10.00%
+Epoch 3: Train Loss=2.3046, Train Acc=10.17%, Val Loss=2.3041, Val Acc=10.00%
+Epoch 4: Train Loss=2.3033, Train Acc=10.05%, Val Loss=2.3031, Val Acc=10.00%
+Epoch 5: Train Loss=2.3030, Train Acc=9.82%, Val Loss=2.3027, Val Acc=10.00%
+Epoch 6: Train Loss=2.3029, Train Acc=9.69%, Val Loss=2.3028, Val Acc=10.00%
+Epoch 7: Train Loss=2.3028, Train Acc=9.82%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 8: Train Loss=2.3028, Train Acc=9.87%, Val Loss=2.3027, Val Acc=10.00%
+Epoch 9: Train Loss=2.3028, Train Acc=9.89%, Val Loss=2.3027, Val Acc=10.00%
+Epoch 10: Train Loss=2.3027, Train Acc=9.67%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 11: Train Loss=2.3027, Train Acc=9.74%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 12: Train Loss=2.3027, Train Acc=9.72%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 13: Train Loss=2.3027, Train Acc=9.62%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 14: Train Loss=2.3027, Train Acc=9.97%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 15: Train Loss=2.3027, Train Acc=9.65%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 16: Train Loss=2.3027, Train Acc=9.87%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 17: Train Loss=2.3027, Train Acc=9.88%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 18: Train Loss=2.3027, Train Acc=9.70%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 19: Train Loss=2.3027, Train Acc=9.79%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 20: Train Loss=2.3027, Train Acc=9.83%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 21: Train Loss=2.3027, Train Acc=9.54%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 22: Train Loss=2.3027, Train Acc=9.67%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 23: Train Loss=2.3027, Train Acc=9.70%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 24: Train Loss=2.3027, Train Acc=9.82%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 25: Train Loss=2.3027, Train Acc=9.89%, Val Loss=2.3026, Val Acc=10.00%
+
+Final Results:
+Final Train Accuracy: 9.89%
+Final Validation Accuracy: 10.00%
+============================================================
+
+============================================================
+Experiment Date: 2026-02-12 21:10:07.812665
+Activation Function: ReLU
+Hidden Layers: 10
+Neurons per Layer: 128
+Optimizer: Adam
+Learning Rate: 0.001
+Batch Size: 128
+Epochs: 25
+
+Epoch-wise Results:
+Epoch 1: Train Loss=1.9201, Train Acc=25.81%, Val Loss=1.8217, Val Acc=30.61%
+Epoch 2: Train Loss=1.7344, Train Acc=34.17%, Val Loss=1.6861, Val Acc=37.21%
+Epoch 3: Train Loss=1.6237, Train Acc=40.55%, Val Loss=1.6140, Val Acc=40.89%
+Epoch 4: Train Loss=1.5364, Train Acc=44.35%, Val Loss=1.5424, Val Acc=44.60%
+Epoch 5: Train Loss=1.4438, Train Acc=48.34%, Val Loss=1.4843, Val Acc=47.68%
+Epoch 6: Train Loss=1.3692, Train Acc=50.85%, Val Loss=1.4722, Val Acc=48.23%
+Epoch 7: Train Loss=1.3102, Train Acc=53.17%, Val Loss=1.4526, Val Acc=49.58%
+Epoch 8: Train Loss=1.2494, Train Acc=55.56%, Val Loss=1.4276, Val Acc=50.20%
+Epoch 9: Train Loss=1.2048, Train Acc=57.17%, Val Loss=1.4278, Val Acc=50.45%
+Epoch 10: Train Loss=1.1557, Train Acc=59.10%, Val Loss=1.4424, Val Acc=51.40%
+Epoch 11: Train Loss=1.1200, Train Acc=60.23%, Val Loss=1.4289, Val Acc=52.29%
+Epoch 12: Train Loss=1.0792, Train Acc=61.71%, Val Loss=1.4288, Val Acc=51.28%
+Epoch 13: Train Loss=1.0450, Train Acc=63.31%, Val Loss=1.4698, Val Acc=51.12%
+Epoch 14: Train Loss=1.0104, Train Acc=64.45%, Val Loss=1.4612, Val Acc=51.64%
+Epoch 15: Train Loss=0.9769, Train Acc=65.54%, Val Loss=1.4671, Val Acc=52.72%
+Epoch 16: Train Loss=0.9486, Train Acc=66.71%, Val Loss=1.4839, Val Acc=52.32%
+Epoch 17: Train Loss=0.9127, Train Acc=67.90%, Val Loss=1.5338, Val Acc=52.02%
+Epoch 18: Train Loss=0.8917, Train Acc=68.55%, Val Loss=1.5614, Val Acc=51.58%
+Epoch 19: Train Loss=0.8654, Train Acc=69.57%, Val Loss=1.5448, Val Acc=51.77%
+Epoch 20: Train Loss=0.8419, Train Acc=70.59%, Val Loss=1.6130, Val Acc=50.70%
+Epoch 21: Train Loss=0.8160, Train Acc=71.36%, Val Loss=1.5938, Val Acc=51.87%
+Epoch 22: Train Loss=0.8035, Train Acc=72.03%, Val Loss=1.6356, Val Acc=51.67%
+Epoch 23: Train Loss=0.7697, Train Acc=73.04%, Val Loss=1.6767, Val Acc=51.51%
+Epoch 24: Train Loss=0.7439, Train Acc=73.98%, Val Loss=1.6949, Val Acc=51.68%
+Epoch 25: Train Loss=0.7285, Train Acc=74.85%, Val Loss=1.7614, Val Acc=50.43%
+
+Final Results:
+Final Train Accuracy: 74.85%
+Final Validation Accuracy: 50.43%
+============================================================
+
+============================================================
+Experiment Date: 2026-02-12 21:21:35.414217
+Activation Function: Tanh
+Hidden Layers: 10
+Neurons per Layer: 128
+Optimizer: Adam
+Learning Rate: 0.001
+Batch Size: 128
+Epochs: 25
+
+Epoch-wise Results:
+Epoch 1: Train Loss=1.9119, Train Acc=29.88%, Val Loss=1.8247, Val Acc=34.43%
+Epoch 2: Train Loss=1.7730, Train Acc=36.15%, Val Loss=1.7635, Val Acc=36.97%
+Epoch 3: Train Loss=1.6999, Train Acc=39.29%, Val Loss=1.6834, Val Acc=40.44%
+Epoch 4: Train Loss=1.6421, Train Acc=41.72%, Val Loss=1.6466, Val Acc=41.22%
+Epoch 5: Train Loss=1.6001, Train Acc=43.66%, Val Loss=1.6321, Val Acc=42.29%
+Epoch 6: Train Loss=1.5597, Train Acc=44.62%, Val Loss=1.5936, Val Acc=43.48%
+Epoch 7: Train Loss=1.5218, Train Acc=46.27%, Val Loss=1.5687, Val Acc=44.79%
+Epoch 8: Train Loss=1.4845, Train Acc=47.44%, Val Loss=1.5703, Val Acc=44.68%
+Epoch 9: Train Loss=1.4537, Train Acc=48.80%, Val Loss=1.5362, Val Acc=46.34%
+Epoch 10: Train Loss=1.4305, Train Acc=49.55%, Val Loss=1.5412, Val Acc=46.26%
+Epoch 11: Train Loss=1.4000, Train Acc=50.73%, Val Loss=1.5504, Val Acc=46.22%
+Epoch 12: Train Loss=1.3735, Train Acc=51.70%, Val Loss=1.5456, Val Acc=47.30%
+Epoch 13: Train Loss=1.3537, Train Acc=52.40%, Val Loss=1.5447, Val Acc=46.49%
+Epoch 14: Train Loss=1.3254, Train Acc=53.36%, Val Loss=1.5352, Val Acc=46.92%
+Epoch 15: Train Loss=1.2975, Train Acc=54.15%, Val Loss=1.5225, Val Acc=46.69%
+Epoch 16: Train Loss=1.2728, Train Acc=55.05%, Val Loss=1.5288, Val Acc=47.40%
+Epoch 17: Train Loss=1.2508, Train Acc=55.94%, Val Loss=1.5219, Val Acc=47.96%
+Epoch 18: Train Loss=1.2186, Train Acc=57.08%, Val Loss=1.5416, Val Acc=47.17%
+Epoch 19: Train Loss=1.2025, Train Acc=57.61%, Val Loss=1.5509, Val Acc=47.04%
+Epoch 20: Train Loss=1.1734, Train Acc=58.63%, Val Loss=1.5529, Val Acc=48.10%
+Epoch 21: Train Loss=1.1517, Train Acc=59.32%, Val Loss=1.5647, Val Acc=47.73%
+Epoch 22: Train Loss=1.1244, Train Acc=60.24%, Val Loss=1.5726, Val Acc=47.26%
+Epoch 23: Train Loss=1.1133, Train Acc=60.74%, Val Loss=1.5887, Val Acc=47.65%
+Epoch 24: Train Loss=1.0927, Train Acc=61.41%, Val Loss=1.5878, Val Acc=47.31%
+Epoch 25: Train Loss=1.0688, Train Acc=62.18%, Val Loss=1.5970, Val Acc=48.02%
+
+Final Results:
+Final Train Accuracy: 62.18%
+Final Validation Accuracy: 48.02%
+============================================================
+
+============================================================
+Experiment Date: 2026-02-12 21:35:49.419730
+Activation Function: Sigmoid
+Hidden Layers: 20
+Neurons per Layer: 128
+Optimizer: Adam
+Learning Rate: 0.001
+Batch Size: 128
+Epochs: 25
+
+Epoch-wise Results:
+Epoch 1: Train Loss=2.3075, Train Acc=10.04%, Val Loss=2.3049, Val Acc=10.00%
+Epoch 2: Train Loss=2.3059, Train Acc=9.82%, Val Loss=2.3052, Val Acc=10.00%
+Epoch 3: Train Loss=2.3048, Train Acc=10.01%, Val Loss=2.3046, Val Acc=10.00%
+Epoch 4: Train Loss=2.3035, Train Acc=10.00%, Val Loss=2.3029, Val Acc=10.00%
+Epoch 5: Train Loss=2.3030, Train Acc=9.92%, Val Loss=2.3027, Val Acc=10.00%
+Epoch 6: Train Loss=2.3029, Train Acc=10.16%, Val Loss=2.3028, Val Acc=10.00%
+Epoch 7: Train Loss=2.3028, Train Acc=9.84%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 8: Train Loss=2.3028, Train Acc=9.88%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 9: Train Loss=2.3028, Train Acc=9.78%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 10: Train Loss=2.3028, Train Acc=9.62%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 11: Train Loss=2.3027, Train Acc=9.73%, Val Loss=2.3027, Val Acc=10.00%
+Epoch 12: Train Loss=2.3027, Train Acc=9.97%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 13: Train Loss=2.3027, Train Acc=9.89%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 14: Train Loss=2.3027, Train Acc=9.74%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 15: Train Loss=2.3027, Train Acc=9.65%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 16: Train Loss=2.3027, Train Acc=9.85%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 17: Train Loss=2.3027, Train Acc=9.73%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 18: Train Loss=2.3027, Train Acc=9.58%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 19: Train Loss=2.3027, Train Acc=9.69%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 20: Train Loss=2.3027, Train Acc=9.57%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 21: Train Loss=2.3027, Train Acc=9.88%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 22: Train Loss=2.3027, Train Acc=9.84%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 23: Train Loss=2.3027, Train Acc=9.77%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 24: Train Loss=2.3027, Train Acc=9.62%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 25: Train Loss=2.3027, Train Acc=9.84%, Val Loss=2.3026, Val Acc=10.00%
+
+Final Results:
+Final Train Accuracy: 9.84%
+Final Validation Accuracy: 10.00%
+============================================================
+
+============================================================
+Experiment Date: 2026-02-12 21:51:23.778291
+Activation Function: ReLU without He Initializtion(Default)
+Hidden Layers: 20
+Neurons per Layer: 128
+Optimizer: Adam
+Learning Rate: 0.001
+Batch Size: 128
+Epochs: 25
+
+Epoch-wise Results:
+Epoch 1: Train Loss=2.3032, Train Acc=9.87%, Val Loss=2.3028, Val Acc=10.00%
+Epoch 2: Train Loss=2.3029, Train Acc=9.66%, Val Loss=2.3028, Val Acc=10.00%
+Epoch 3: Train Loss=2.3030, Train Acc=9.76%, Val Loss=2.3027, Val Acc=10.00%
+Epoch 4: Train Loss=2.3028, Train Acc=9.90%, Val Loss=2.3027, Val Acc=10.00%
+Epoch 5: Train Loss=2.3028, Train Acc=9.89%, Val Loss=2.3028, Val Acc=10.00%
+Epoch 6: Train Loss=2.3028, Train Acc=9.93%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 7: Train Loss=2.3028, Train Acc=9.89%, Val Loss=2.3027, Val Acc=10.00%
+Epoch 8: Train Loss=2.3028, Train Acc=9.92%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 9: Train Loss=2.3028, Train Acc=9.68%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 10: Train Loss=2.3028, Train Acc=9.82%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 11: Train Loss=2.3028, Train Acc=9.77%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 12: Train Loss=2.3028, Train Acc=9.63%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 13: Train Loss=2.3027, Train Acc=10.00%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 14: Train Loss=2.3027, Train Acc=9.75%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 15: Train Loss=2.3028, Train Acc=9.87%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 16: Train Loss=2.3027, Train Acc=9.67%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 17: Train Loss=2.3027, Train Acc=9.72%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 18: Train Loss=2.3027, Train Acc=9.79%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 19: Train Loss=2.3027, Train Acc=9.70%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 20: Train Loss=2.3027, Train Acc=9.80%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 21: Train Loss=2.3027, Train Acc=10.02%, Val Loss=2.3027, Val Acc=10.00%
+Epoch 22: Train Loss=2.3027, Train Acc=9.86%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 23: Train Loss=2.3027, Train Acc=9.97%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 24: Train Loss=2.3027, Train Acc=9.76%, Val Loss=2.3026, Val Acc=10.00%
+Epoch 25: Train Loss=2.3027, Train Acc=9.70%, Val Loss=2.3026, Val Acc=10.00%
+
+Final Results:
+Final Train Accuracy: 9.70%
+Final Validation Accuracy: 10.00%
+============================================================
+
+============================================================
+Experiment Date: 2026-02-12 22:15:04.882690
+Activation Function: ReLU with He Initialization
+Hidden Layers: 20
+Neurons per Layer: 128
+Optimizer: Adam
+Learning Rate: 0.001
+Batch Size: 128
+Epochs: 25
+
+Epoch-wise Results:
+Epoch 1: Train Loss=1.8953, Train Acc=29.64%, Val Loss=1.7521, Val Acc=36.02%
+Epoch 2: Train Loss=1.7110, Train Acc=38.14%, Val Loss=1.6310, Val Acc=41.67%
+Epoch 3: Train Loss=1.6097, Train Acc=42.39%, Val Loss=1.5772, Val Acc=43.47%
+Epoch 4: Train Loss=1.5413, Train Acc=45.11%, Val Loss=1.5384, Val Acc=45.16%
+Epoch 5: Train Loss=1.4858, Train Acc=47.27%, Val Loss=1.4897, Val Acc=47.19%
+Epoch 6: Train Loss=1.4340, Train Acc=49.18%, Val Loss=1.4937, Val Acc=47.48%
+Epoch 7: Train Loss=1.3965, Train Acc=50.33%, Val Loss=1.5062, Val Acc=47.09%
+Epoch 8: Train Loss=1.3473, Train Acc=52.45%, Val Loss=1.4816, Val Acc=48.38%
+Epoch 9: Train Loss=1.3195, Train Acc=53.14%, Val Loss=1.4642, Val Acc=49.18%
+Epoch 10: Train Loss=1.2838, Train Acc=54.79%, Val Loss=1.4610, Val Acc=49.91%
+Epoch 11: Train Loss=1.2493, Train Acc=56.08%, Val Loss=1.4843, Val Acc=48.43%
+Epoch 12: Train Loss=1.2271, Train Acc=57.04%, Val Loss=1.4668, Val Acc=49.70%
+Epoch 13: Train Loss=1.1866, Train Acc=58.54%, Val Loss=1.5227, Val Acc=50.38%
+Epoch 14: Train Loss=1.1689, Train Acc=59.04%, Val Loss=1.4899, Val Acc=50.49%
+Epoch 15: Train Loss=1.1397, Train Acc=60.00%, Val Loss=1.4612, Val Acc=50.24%
+Epoch 16: Train Loss=1.1112, Train Acc=61.39%, Val Loss=1.4943, Val Acc=51.02%
+Epoch 17: Train Loss=1.0847, Train Acc=62.23%, Val Loss=1.4688, Val Acc=51.20%
+Epoch 18: Train Loss=1.0600, Train Acc=63.06%, Val Loss=1.4947, Val Acc=49.91%
+Epoch 19: Train Loss=1.0490, Train Acc=63.44%, Val Loss=1.5317, Val Acc=50.78%
+Epoch 20: Train Loss=1.0217, Train Acc=64.54%, Val Loss=1.5053, Val Acc=50.22%
+Epoch 21: Train Loss=0.9981, Train Acc=65.24%, Val Loss=1.5110, Val Acc=50.58%
+Epoch 22: Train Loss=0.9639, Train Acc=66.65%, Val Loss=1.5174, Val Acc=51.39%
+Epoch 23: Train Loss=0.9563, Train Acc=66.90%, Val Loss=1.5599, Val Acc=50.77%
+Epoch 24: Train Loss=0.9365, Train Acc=67.70%, Val Loss=1.6726, Val Acc=51.45%
+Epoch 25: Train Loss=0.9126, Train Acc=68.66%, Val Loss=1.5751, Val Acc=51.69%
+
+Final Results:
+Final Train Accuracy: 68.66%
+Final Validation Accuracy: 51.69%
+============================================================
+
+============================================================
+Experiment Date: 2026-02-12 22:26:35.119095
+Activation Function: Tanh without Xavier Initialization (Default)
+Hidden Layers: 20
+Neurons per Layer: 128
+Optimizer: Adam
+Learning Rate: 0.001
+Batch Size: 128
+Epochs: 25
+
+Epoch-wise Results:
+Epoch 1: Train Loss=2.2408, Train Acc=14.62%, Val Loss=2.2120, Val Acc=15.50%
+Epoch 2: Train Loss=2.2178, Train Acc=15.06%, Val Loss=2.2179, Val Acc=14.54%
+Epoch 3: Train Loss=2.1992, Train Acc=15.68%, Val Loss=2.1952, Val Acc=15.22%
+Epoch 4: Train Loss=2.2050, Train Acc=15.59%, Val Loss=2.2216, Val Acc=15.32%
+Epoch 5: Train Loss=2.2280, Train Acc=15.17%, Val Loss=2.2280, Val Acc=15.40%
+Epoch 6: Train Loss=2.2309, Train Acc=15.41%, Val Loss=2.2308, Val Acc=14.36%
+Epoch 7: Train Loss=2.2604, Train Acc=13.50%, Val Loss=2.2887, Val Acc=12.67%
+Epoch 8: Train Loss=2.2833, Train Acc=13.00%, Val Loss=2.2793, Val Acc=14.11%
+Epoch 9: Train Loss=2.2827, Train Acc=13.63%, Val Loss=2.2641, Val Acc=15.08%
+Epoch 10: Train Loss=2.2713, Train Acc=14.31%, Val Loss=2.2668, Val Acc=14.95%
+Epoch 11: Train Loss=2.2744, Train Acc=14.27%, Val Loss=2.2696, Val Acc=14.70%
+Epoch 12: Train Loss=2.2750, Train Acc=14.20%, Val Loss=2.2700, Val Acc=14.82%
+Epoch 13: Train Loss=2.2745, Train Acc=14.30%, Val Loss=2.2684, Val Acc=14.89%
+Epoch 14: Train Loss=2.2741, Train Acc=14.26%, Val Loss=2.2656, Val Acc=15.04%
+Epoch 15: Train Loss=2.2953, Train Acc=12.10%, Val Loss=2.2981, Val Acc=11.57%
+Epoch 16: Train Loss=2.2928, Train Acc=11.84%, Val Loss=2.2939, Val Acc=11.94%
+Epoch 17: Train Loss=2.2874, Train Acc=12.90%, Val Loss=2.2802, Val Acc=13.83%
+Epoch 18: Train Loss=2.2840, Train Acc=13.20%, Val Loss=2.2807, Val Acc=13.92%
+Epoch 19: Train Loss=2.2816, Train Acc=13.49%, Val Loss=2.2872, Val Acc=13.03%
+Epoch 20: Train Loss=2.2876, Train Acc=13.20%, Val Loss=2.2866, Val Acc=13.03%
+Epoch 21: Train Loss=2.2876, Train Acc=12.98%, Val Loss=2.2880, Val Acc=13.03%
+Epoch 22: Train Loss=2.2868, Train Acc=13.03%, Val Loss=2.2850, Val Acc=13.09%
+Epoch 23: Train Loss=2.2866, Train Acc=12.92%, Val Loss=2.2851, Val Acc=13.09%
+Epoch 24: Train Loss=2.2866, Train Acc=12.97%, Val Loss=2.2857, Val Acc=13.09%
+Epoch 25: Train Loss=2.2864, Train Acc=12.99%, Val Loss=2.2854, Val Acc=13.09%
+
+Final Results:
+Final Train Accuracy: 12.99%
+Final Validation Accuracy: 13.09%
+============================================================
+
+============================================================
+Experiment Date: 2026-02-12 22:39:46.348700
+Activation Function: Tanh with Xavier Initialization
+Hidden Layers: 20
+Neurons per Layer: 128
+Optimizer: Adam
+Learning Rate: 0.001
+Batch Size: 128
+Epochs: 25
+
+Epoch-wise Results:
+Epoch 1: Train Loss=1.9343, Train Acc=30.34%, Val Loss=1.8687, Val Acc=33.67%
+Epoch 2: Train Loss=1.8301, Train Acc=35.10%, Val Loss=1.8111, Val Acc=35.44%
+Epoch 3: Train Loss=1.7961, Train Acc=36.45%, Val Loss=1.7684, Val Acc=37.04%
+Epoch 4: Train Loss=1.7653, Train Acc=37.52%, Val Loss=1.7735, Val Acc=36.73%
+Epoch 5: Train Loss=1.7367, Train Acc=38.69%, Val Loss=1.7494, Val Acc=39.05%
+Epoch 6: Train Loss=1.7082, Train Acc=40.07%, Val Loss=1.6974, Val Acc=40.25%
+Epoch 7: Train Loss=1.6901, Train Acc=40.43%, Val Loss=1.6974, Val Acc=41.33%
+Epoch 8: Train Loss=1.6709, Train Acc=40.94%, Val Loss=1.6946, Val Acc=39.93%
+Epoch 9: Train Loss=1.6504, Train Acc=41.62%, Val Loss=1.7144, Val Acc=40.48%
+Epoch 10: Train Loss=1.6314, Train Acc=42.17%, Val Loss=1.6871, Val Acc=41.76%
+Epoch 11: Train Loss=1.6220, Train Acc=42.64%, Val Loss=1.6739, Val Acc=40.95%
+Epoch 12: Train Loss=1.6073, Train Acc=43.10%, Val Loss=1.6662, Val Acc=41.69%
+Epoch 13: Train Loss=1.5968, Train Acc=43.79%, Val Loss=1.6722, Val Acc=41.89%
+Epoch 14: Train Loss=1.5850, Train Acc=44.13%, Val Loss=1.6542, Val Acc=43.08%
+Epoch 15: Train Loss=1.5765, Train Acc=44.24%, Val Loss=1.6457, Val Acc=42.53%
+Epoch 16: Train Loss=1.5596, Train Acc=44.97%, Val Loss=1.6273, Val Acc=43.29%
+Epoch 17: Train Loss=1.5610, Train Acc=45.03%, Val Loss=1.6387, Val Acc=42.92%
+Epoch 18: Train Loss=1.5576, Train Acc=45.07%, Val Loss=1.6346, Val Acc=42.98%
+Epoch 19: Train Loss=1.5526, Train Acc=45.69%, Val Loss=1.6378, Val Acc=42.94%
+Epoch 20: Train Loss=1.5402, Train Acc=45.86%, Val Loss=1.6396, Val Acc=43.12%
+Epoch 21: Train Loss=1.5417, Train Acc=45.95%, Val Loss=1.6410, Val Acc=42.57%
+Epoch 22: Train Loss=1.5282, Train Acc=46.47%, Val Loss=1.6234, Val Acc=43.66%
+Epoch 23: Train Loss=1.5174, Train Acc=46.70%, Val Loss=1.6132, Val Acc=44.48%
+Epoch 24: Train Loss=1.5155, Train Acc=46.70%, Val Loss=1.6069, Val Acc=44.19%
+Epoch 25: Train Loss=1.5047, Train Acc=47.31%, Val Loss=1.6594, Val Acc=42.61%
+
+Final Results:
+Final Train Accuracy: 47.31%
+Final Validation Accuracy: 42.61%
+============================================================
+
+============================================================
+Experiment Date: 2026-02-12 22:55:45.339576
+Activation Function: Sigmoid
+Hidden Layers: 5
+Neurons per Layer: 128
+Optimizer: Adam
+Learning Rate: 0.001
+Batch Size: 128
+Epochs: 25
+
+Epoch-wise Results:
+Epoch 1: Train Loss=2.1060, Train Acc=17.49%, Val Loss=2.0130, Val Acc=21.07%
+Epoch 2: Train Loss=1.9679, Train Acc=22.93%, Val Loss=1.9064, Val Acc=25.11%
+Epoch 3: Train Loss=1.8423, Train Acc=28.58%, Val Loss=1.7934, Val Acc=32.08%
+Epoch 4: Train Loss=1.7529, Train Acc=33.62%, Val Loss=1.7274, Val Acc=36.18%
+Epoch 5: Train Loss=1.6779, Train Acc=37.90%, Val Loss=1.6817, Val Acc=38.02%
+Epoch 6: Train Loss=1.6181, Train Acc=40.50%, Val Loss=1.6459, Val Acc=39.92%
+Epoch 7: Train Loss=1.5730, Train Acc=42.38%, Val Loss=1.6420, Val Acc=40.12%
+Epoch 8: Train Loss=1.5309, Train Acc=43.94%, Val Loss=1.6172, Val Acc=41.53%
+Epoch 9: Train Loss=1.4898, Train Acc=45.65%, Val Loss=1.6123, Val Acc=42.50%
+Epoch 10: Train Loss=1.4563, Train Acc=47.05%, Val Loss=1.5958, Val Acc=43.15%
+Epoch 11: Train Loss=1.4211, Train Acc=48.10%, Val Loss=1.5921, Val Acc=43.52%
+Epoch 12: Train Loss=1.3870, Train Acc=49.73%, Val Loss=1.5868, Val Acc=43.64%
+Epoch 13: Train Loss=1.3581, Train Acc=50.59%, Val Loss=1.6110, Val Acc=43.18%
+Epoch 14: Train Loss=1.3271, Train Acc=51.93%, Val Loss=1.6070, Val Acc=43.12%
+Epoch 15: Train Loss=1.2969, Train Acc=52.88%, Val Loss=1.5982, Val Acc=44.27%
+Epoch 16: Train Loss=1.2704, Train Acc=53.94%, Val Loss=1.6027, Val Acc=44.59%
+Epoch 17: Train Loss=1.2443, Train Acc=54.95%, Val Loss=1.6324, Val Acc=44.34%
+Epoch 18: Train Loss=1.2223, Train Acc=55.62%, Val Loss=1.6157, Val Acc=44.91%
+Epoch 19: Train Loss=1.1942, Train Acc=56.92%, Val Loss=1.6315, Val Acc=44.90%
+Epoch 20: Train Loss=1.1723, Train Acc=57.70%, Val Loss=1.6641, Val Acc=44.53%
+Epoch 21: Train Loss=1.1487, Train Acc=58.63%, Val Loss=1.6766, Val Acc=44.67%
+Epoch 22: Train Loss=1.1303, Train Acc=59.16%, Val Loss=1.6792, Val Acc=45.08%
+Epoch 23: Train Loss=1.1068, Train Acc=60.13%, Val Loss=1.6866, Val Acc=44.40%
+Epoch 24: Train Loss=1.0845, Train Acc=60.91%, Val Loss=1.6871, Val Acc=45.24%
+Epoch 25: Train Loss=1.0669, Train Acc=61.74%, Val Loss=1.7021, Val Acc=44.83%
+
+Final Results:
+Final Train Accuracy: 61.74%
+Final Validation Accuracy: 44.83%
+============================================================
+
+============================================================
+Experiment Date: 2026-02-12 23:03:05.457797
+Activation Function: ReLU
+Hidden Layers: 5
+Neurons per Layer: 128
+Optimizer: Adam
+Learning Rate: 0.001
+Batch Size: 128
+Epochs: 25
+
+Epoch-wise Results:
+Epoch 1: Train Loss=1.7324, Train Acc=37.66%, Val Loss=1.5526, Val Acc=45.11%
+Epoch 2: Train Loss=1.4952, Train Acc=46.88%, Val Loss=1.4662, Val Acc=48.19%
+Epoch 3: Train Loss=1.3805, Train Acc=50.79%, Val Loss=1.4010, Val Acc=49.49%
+Epoch 4: Train Loss=1.2922, Train Acc=54.05%, Val Loss=1.3756, Val Acc=51.04%
+Epoch 5: Train Loss=1.2255, Train Acc=56.20%, Val Loss=1.3554, Val Acc=52.25%
+Epoch 6: Train Loss=1.1617, Train Acc=58.59%, Val Loss=1.3735, Val Acc=52.67%
+Epoch 7: Train Loss=1.1067, Train Acc=60.46%, Val Loss=1.3589, Val Acc=52.44%
+Epoch 8: Train Loss=1.0588, Train Acc=62.38%, Val Loss=1.3514, Val Acc=52.78%
+Epoch 9: Train Loss=1.0105, Train Acc=63.91%, Val Loss=1.3808, Val Acc=53.37%
+Epoch 10: Train Loss=0.9694, Train Acc=65.34%, Val Loss=1.4031, Val Acc=53.03%
+Epoch 11: Train Loss=0.9307, Train Acc=66.80%, Val Loss=1.4397, Val Acc=53.22%
+Epoch 12: Train Loss=0.8849, Train Acc=68.06%, Val Loss=1.4444, Val Acc=53.50%
+Epoch 13: Train Loss=0.8468, Train Acc=69.63%, Val Loss=1.4603, Val Acc=52.31%
+Epoch 14: Train Loss=0.8118, Train Acc=70.93%, Val Loss=1.5308, Val Acc=52.61%
+Epoch 15: Train Loss=0.7741, Train Acc=72.29%, Val Loss=1.5841, Val Acc=52.58%
+Epoch 16: Train Loss=0.7440, Train Acc=73.33%, Val Loss=1.5662, Val Acc=52.72%
+Epoch 17: Train Loss=0.7097, Train Acc=74.32%, Val Loss=1.5829, Val Acc=52.46%
+Epoch 18: Train Loss=0.6749, Train Acc=75.90%, Val Loss=1.7032, Val Acc=52.24%
+Epoch 19: Train Loss=0.6511, Train Acc=76.38%, Val Loss=1.7641, Val Acc=52.60%
+Epoch 20: Train Loss=0.6247, Train Acc=77.35%, Val Loss=1.7979, Val Acc=52.37%
+Epoch 21: Train Loss=0.5939, Train Acc=78.62%, Val Loss=1.8188, Val Acc=51.78%
+Epoch 22: Train Loss=0.5707, Train Acc=79.53%, Val Loss=1.9377, Val Acc=51.76%
+Epoch 23: Train Loss=0.5541, Train Acc=79.88%, Val Loss=1.9291, Val Acc=51.39%
+Epoch 24: Train Loss=0.5290, Train Acc=80.71%, Val Loss=2.0200, Val Acc=52.39%
+Epoch 25: Train Loss=0.5025, Train Acc=81.76%, Val Loss=2.1106, Val Acc=52.17%
+
+Final Results:
+Final Train Accuracy: 81.76%
+Final Validation Accuracy: 52.17%
+============================================================
+
+============================================================
+Experiment Date: 2026-02-12 23:10:20.324255
+Activation Function: Tanh
+Hidden Layers: 5
+Neurons per Layer: 128
+Optimizer: Adam
+Learning Rate: 0.001
+Batch Size: 128
+Epochs: 25
+
+Epoch-wise Results:
+Epoch 1: Train Loss=1.7899, Train Acc=36.38%, Val Loss=1.7002, Val Acc=39.72%
+Epoch 2: Train Loss=1.6374, Train Acc=42.44%, Val Loss=1.6067, Val Acc=44.16%
+Epoch 3: Train Loss=1.5534, Train Acc=45.10%, Val Loss=1.5735, Val Acc=44.49%
+Epoch 4: Train Loss=1.4949, Train Acc=47.25%, Val Loss=1.5304, Val Acc=46.47%
+Epoch 5: Train Loss=1.4519, Train Acc=48.61%, Val Loss=1.5165, Val Acc=46.93%
+Epoch 6: Train Loss=1.4087, Train Acc=50.18%, Val Loss=1.5045, Val Acc=47.21%
+Epoch 7: Train Loss=1.3693, Train Acc=51.53%, Val Loss=1.4883, Val Acc=47.94%
+Epoch 8: Train Loss=1.3346, Train Acc=52.77%, Val Loss=1.4930, Val Acc=48.02%
+Epoch 9: Train Loss=1.2994, Train Acc=54.03%, Val Loss=1.4654, Val Acc=48.80%
+Epoch 10: Train Loss=1.2631, Train Acc=55.21%, Val Loss=1.4903, Val Acc=47.62%
+Epoch 11: Train Loss=1.2338, Train Acc=56.52%, Val Loss=1.4860, Val Acc=48.48%
+Epoch 12: Train Loss=1.2005, Train Acc=57.69%, Val Loss=1.4958, Val Acc=48.34%
+Epoch 13: Train Loss=1.1740, Train Acc=58.57%, Val Loss=1.4895, Val Acc=48.91%
+Epoch 14: Train Loss=1.1431, Train Acc=59.73%, Val Loss=1.5104, Val Acc=48.76%
+Epoch 15: Train Loss=1.1165, Train Acc=60.56%, Val Loss=1.5021, Val Acc=48.69%
+Epoch 16: Train Loss=1.0837, Train Acc=61.63%, Val Loss=1.5193, Val Acc=48.99%
+Epoch 17: Train Loss=1.0506, Train Acc=62.88%, Val Loss=1.5235, Val Acc=49.43%
+Epoch 18: Train Loss=1.0281, Train Acc=63.59%, Val Loss=1.5510, Val Acc=48.88%
+Epoch 19: Train Loss=1.0009, Train Acc=64.52%, Val Loss=1.5664, Val Acc=49.04%
+Epoch 20: Train Loss=0.9703, Train Acc=65.55%, Val Loss=1.5870, Val Acc=48.90%
+Epoch 21: Train Loss=0.9393, Train Acc=66.86%, Val Loss=1.6132, Val Acc=48.63%
+Epoch 22: Train Loss=0.9175, Train Acc=67.46%, Val Loss=1.6303, Val Acc=48.19%
+Epoch 23: Train Loss=0.8878, Train Acc=68.63%, Val Loss=1.6715, Val Acc=48.61%
+Epoch 24: Train Loss=0.8635, Train Acc=69.76%, Val Loss=1.6909, Val Acc=48.02%
+Epoch 25: Train Loss=0.8330, Train Acc=70.63%, Val Loss=1.7084, Val Acc=48.57%
+
+Final Results:
+Final Train Accuracy: 70.63%
+Final Validation Accuracy: 48.57%
+============================================================
+
